@@ -11,8 +11,6 @@ Before we begin, ensure that you have the following:
 1.  ROS Foxy installed on your system.
     - [HERE](https://github.com/alanoudmk/Install-ROS2-Foxy-on-Ubuntu-20.04) is how to download it.
 2.  Basic understanding of ROS concepts, such as nodes, topics, and messages.
-3.  ROS2 Development Environment.
-     - includes installing the necessary build tools, such as: CMake, Python 3, pip, colcon. 
 
 
 
