@@ -253,7 +253,7 @@ Before we begin, ensure that you have the following:
 
 ### 9. Move turtle2:
 
-- <mark>**By Default**<mark>, this node controls the turtle1 instance, but we want to control the turtle2 instance that we just spawned. 
+- <mark>**By Default**<mark> ,  this node controls the turtle1 instance, but we want to control the turtle2 instance that we just spawned. 
 
 - Open a new **Terminal** window.
   > Ctrl + Alt + T
