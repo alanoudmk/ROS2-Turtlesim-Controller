@@ -12,7 +12,7 @@ Before we begin, ensure that you have the following:
     - [HERE](https://github.com/alanoudmk/Install-ROS2-Foxy-on-Ubuntu-20.04) is how to download it.
 2.  Basic understanding of ROS concepts, such as nodes, topics, and messages.
 3.  ROS2 Development Environment.
-     -includes installing the necessary build tools, such as: CMake, Python 3, pip, colcon. 
+     - includes installing the necessary build tools, such as: CMake, Python 3, pip, colcon. 
 
 
 
@@ -59,9 +59,10 @@ Before we begin, ensure that you have the following:
     - Runs the turtlesim_node: start the turtlesim_node and launch the turtlesim application.
     - Launches the turtlesim GUI: The turtlesim_node will open a graphical window that displays a 2D plane with a turtle icon. This is the turtlesim environment where you can interact with the simulated turtle.
       
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/403ec57d-af8e-4367-8391-ff4c9378c877)
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/403ec57d-af8e-4367-8391-ff4c9378c877" width="520" height="100">
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/3acf9001-4cfe-49f2-a2b1-9f6153a0665c)
+
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/3acf9001-4cfe-49f2-a2b1-9f6153a0665c" width="200" height="100">
 
 
 
@@ -86,11 +87,11 @@ Before we begin, ensure that you have the following:
   $ run turtlesim turtle_teleop_key
   ```
   
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/89574278-2bf4-42fc-a1fa-bab060af94cc)
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/89574278-2bf4-42fc-a1fa-bab060af94cc" width="440" height="100">
 
 - Use the arrow keys on your keyboard to control the turtle.
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/d929d337-16ce-4175-b1b9-4bc0e52a2694)
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/d929d337-16ce-4175-b1b9-4bc0e52a2694" width="150" height="150">
 
 
 
@@ -126,12 +127,21 @@ Before we begin, ensure that you have the following:
 - To access the Service Caller functionality:
     > Plugins  ->  Services  ->  Service Caller
     
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/6a67825a-ef99-42f2-b1f7-31f84f140882)
+<div align="left">
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/6a67825a-ef99-42f2-b1f7-31f84f140882" width="350" height="100">
+    
+</div>
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/42875025-cac6-445e-bcdb-18d5431eeabc)
+<div align="left">
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/42875025-cac6-445e-bcdb-18d5431eeabc" width="150" height="150">
+    
+</div>
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/cdc7d52a-4928-479d-9141-64381e6d25e1)
 
+<div align="left">
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/cdc7d52a-4928-479d-9141-64381e6d25e1" width="250" height="230">
+    
+</div>
 
 
 ***
@@ -140,11 +150,16 @@ Before we begin, ensure that you have the following:
 ### 6. Spawn Service (a new turtle):
 
 - In the left pane of the Service Caller plugin, you should see the available services. Look for the ```/spawn``` service.
-> Service  ->   /spawn 
+> Service  ->   /spawn
+> 
+<div align="left">
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/183f93d4-cbe0-4b04-81de-36809bf951f3" width="500" height="40">
+</div>
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/183f93d4-cbe0-4b04-81de-36809bf951f3)
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/d600c43c-5f8b-455d-a0c4-f1a950eed9f7)
+<div align="left">
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/d600c43c-5f8b-455d-a0c4-f1a950eed9f7" width="250" height="140">
+</div>
 
 - In the right pane, enter the parameters for the new turtle:
 <mark>**By Double-Clicking**<mark>
@@ -154,19 +169,27 @@ Before we begin, ensure that you have the following:
         - x:=1.0
         - y:=1.0
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/4c76dc97-d41d-4bef-a450-97065b3e59c4)
+
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/4c76dc97-d41d-4bef-a450-97065b3e59c4" width="250" height="100">
+
 
 
 - **Finally**, Click the ``Call`` button to execute the ``/spawn`` service and create the new turtle:
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/447c3cd5-aa62-48a5-a9ec-9a1a8947eba9)
+
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/447c3cd5-aa62-48a5-a9ec-9a1a8947eba9" width="250" height="100">
+
 
 - You should see this:
-  
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/88e0ed40-1e86-4318-9301-23527f435bbd)
-  
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/925fac8a-6ec1-4e1f-ba6d-a861fbd44415)
 
+
+<div align="left">
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/88e0ed40-1e86-4318-9301-23527f435bbd" width="260" height="80">  
+</div>
+
+<div align="left">
+  <img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/925fac8a-6ec1-4e1f-ba6d-a861fbd44415" width="220" height="195">    
+</div>
 
 
 
@@ -185,36 +208,76 @@ Before we begin, ensure that you have the following:
           - 1. Color: You can set the red, green, and blue (RGB) color components of the pen's color, each ranging from 0 to 255.
           - 2. Width: You can set the width of the pen's line, in pixels.
           - 3. Off: You can turn the pen off, which means the turtle will not leave a trail as it moves.
-            
 
-#### Set the pen for turtle1:
 
-- In the rqt GUI, navigate to the "" menu and select:
+
+***
+
+
+
+### 8. Set the pen for turtle1:
+
+- In the rqt GUI:
+
   > Plugins  ->  Services  ->   Service Caller  ->  /turtle1/set_pen
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/b2820475-daf0-440b-b304-809306480723)
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/b2820475-daf0-440b-b304-809306480723" width="280" height="160">
 
--In the left pane, look for the ``/turtle1/set_pen`` service.
+- In the left pane, look for the ``/turtle1/set_pen`` service.
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/a091f8a4-3db0-4fdb-a15e-e2e72f9c1353)
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/a091f8a4-3db0-4fdb-a15e-e2e72f9c1353" width="280" height="100">
 
 - In the right pane, enter the desired pen parameters:
     - Ex:
-      - r:=255    # Red color component
-      - g:=0      # Green color component
-      - b:=0      # Blue color component
-      - width:=9  # Pen width of 9 pixels
-      - off:=0    # Pen is turned ON
+      - r:=255    _# Red color component_
+      - g:=0      _# Green color component_
+      - b:=0      _# Blue color component_
+      - width:=9  _# Pen width of 9 pixels_
+      - off:=0    _# Pen is turned ON_
   
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/4e0195ee-de11-4ab1-bbb8-73d50454c276)
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/4e0195ee-de11-4ab1-bbb8-73d50454c276" width="280" height="130">
 
 
 -  Click the ``Call`` button to execute the ``/turtle1/set_pen`` service and update the pen settings for turtle1.
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/fca27c56-89ed-4122-bed8-61a8b508f5e7)
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/fca27c56-89ed-4122-bed8-61a8b508f5e7" width="250" height="90">
 
 - Return to the Terminal where ``turtle_teleop_key``is running.
 - Use the arrow keys on your keyboard to control the turtle. you will see turtle1’s pen has changed to Red and has 8 width as shown:
 
-  ![image](https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/793edf1e-137b-42d7-ab6a-d98794e09bdd)
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/793edf1e-137b-42d7-ab6a-d98794e09bdd" width="250" height="210">
+
+
+***
+
+
+### 9. Move turtle2:
+
+- <mark>**By Default**<mark>, this node controls the turtle1 instance, but we want to control the turtle2 instance that we just spawned. 
+
+- Open a new **Terminal** window.
+  > Ctrl + Alt + T
+  
+- Source ROS2 again: 
+  
+  ```
+  $ source /opt/ros/foxy/setup.bash
+  ```
+
+- Move turtle2:
+  
+  ```
+  ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel
+  ```
+  
+- ``turtle_teleop_key`` node:  allows you to control a turtle in the turtlesim simulation using the keyboard.
+- ``--ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel``  part of the command remaps the  ``turtle1/cmd_vel``  topic to   ``turtle2/cmd_vel``.
+
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/2ae5c9fc-ab32-406a-8ca7-a2ee4d2f2136" width="310" height="120">
+
+- This way, the keyboard inputs from the turtle_teleop_key node will be published to the turtle2/cmd_vel topic, allowing you to control turtle2.
+
+<img src="https://github.com/alanoudmk/ROS2-Turtlesim-Controller/assets/127528672/c13a2b70-d1b8-459b-8495-79c1ed786b36" width="250" height="210">
+
+ 
 
